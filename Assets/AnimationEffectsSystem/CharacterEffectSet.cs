@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 namespace AnimationEffects
 {
@@ -11,7 +10,6 @@ namespace AnimationEffects
     /// </summary>
     [CreateAssetMenu(fileName = "CharacterEffectSet", menuName = "ScriptableObjects/CharacterEffectSet", order = 1)]
     public class CharacterEffectSet : ScriptableObject {
-        [InfoBox("Add all AnimationEffectsData below")]
         public AnimationEffectsData[] effects;
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 namespace AnimationEffects
 {
@@ -12,7 +11,6 @@ namespace AnimationEffects
     /// </summary>
     public class AnimationListener : StateMachineBehaviour
     {
-        [InfoBox("Create a CharacterEffectSet and add it below")]
 
         public CharacterEffectSet characterSet;
 

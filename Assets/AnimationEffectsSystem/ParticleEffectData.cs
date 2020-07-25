@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 namespace AnimationEffects
 {
@@ -12,7 +11,6 @@ namespace AnimationEffects
     [System.Serializable]
     public class ParticleEffectData : System.Object
     {
-        [AssetsOnly]
         public GameObject particlePrefab = null;
 
         public Vector3 positionOffset = Vector3.zero;

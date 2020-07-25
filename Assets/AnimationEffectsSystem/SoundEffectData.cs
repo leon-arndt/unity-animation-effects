@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 namespace AnimationEffects
 {
@@ -27,8 +26,6 @@ namespace AnimationEffects
         private const float defaultMinPitch = 0.7f;
         private const float defaultMaxPitch = 1.4f;
 
-        [ShowIf("useRandomPitch")]
-        [MinMaxSlider(minPitch, maxPitch)]
         public Vector2 randomPitch = new Vector2(defaultMinPitch, defaultMaxPitch);
     }
 }
