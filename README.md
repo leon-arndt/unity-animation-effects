@@ -1,7 +1,10 @@
 # Unity: Animation Effects Editor
-An editor for playing particles and sounds. Made in Unity 2019.4.1f1.
+An editor for playing particles and sounds by listening to Mecanim animations. Made in Unity 2019.4.1f1.
+Please also have a look at the example project at https://github.com/neotalon/unity-animation-effects-example (Access Required)
 
-**Version 0.6.2**
+** Hot Tip: ** You can directly add the package from the package manager using the git url: https://github.com/neotalon/unity-animation-effects.git
+
+**Version 1.0.0**
  
  ![Result](https://i.imgur.com/F3dw7ML.gif)
  
@@ -62,10 +65,6 @@ The AnimationListener then looks if any animation effects match the entered stat
  3. Add option to randomize sound pitch ✅
  4. Stress-test and optimize performance by improving animation effects lookup speed
  
-## Used Plugins and Assets
-- Odin Inspector Asset Package (Version 2.1.10)
-- Several public domain (CC0) sounds from freesound.org
-- Mummy by amusedArt from Unity Asset Store
 
 ## Support
 If you encounter any problems, please open an issue on this repository. You can also send a support e-mail to neotalon27@gmail.com and I will try to take a look if I have time.
