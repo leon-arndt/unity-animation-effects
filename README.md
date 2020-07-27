@@ -73,3 +73,9 @@ If you encounter any problems, please open an issue on this repository. You can 
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 [Semantic Versioning](https://semver.org/)
+
+## License
+The package uses the [MIT License](https://opensource.org/licenses/MIT)
+
+## Quick note on Odin Inspector
+[Odin Inspector](https://odininspector.com/) is recommended to use alongside the package. It makes it easier to replace fields and easily allows you to add custom min-max sliders which are useful for random sound effect picthing. It is seen in some of the screenshots, if you have time, please check it out, it's a great tool.
