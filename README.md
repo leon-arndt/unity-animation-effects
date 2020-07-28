@@ -4,7 +4,7 @@ Please also have a look at the example project at https://github.com/neotalon/un
 
 ** Hot Tip: ** You can directly add the package from the package manager using the git url: https://github.com/neotalon/unity-animation-effects.git
 
-**Version 1.0.2**
+**Version 1.0.3**
  
  ![Result](https://i.imgur.com/F3dw7ML.gif)
  
