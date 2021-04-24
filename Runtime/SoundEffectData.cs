@@ -18,6 +18,8 @@ namespace AnimationEffects
         [Tooltip("should the sound pitch be randomized?")]
         public bool useRandomPitch = false;
 
+        public const float volume = 1f;
+        
         //internal min and max pitch settings
         private const float minPitch = 0f;
         private const float maxPitch = 2f;

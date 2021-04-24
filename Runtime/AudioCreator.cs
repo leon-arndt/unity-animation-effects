@@ -17,7 +17,8 @@ namespace AnimationEffects
         public static void CreateTemporarySound(SoundEffectData data)
         {
             AudioSource source = CreateSound(data.audioClip);
-
+            source.volume = data.volume;
+            
             //random pitching
             if (data.useRandomPitch)
             {
